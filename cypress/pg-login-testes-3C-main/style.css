@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3f3f3; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px gray;
+    width: 300px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#registrar {
+    background-color: #ff9900; 
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white; 
+    cursor: pointer;
+}
+
+#registrar:hover {
+    background-color: #e68a00; 
+}
